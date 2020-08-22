@@ -11,3 +11,14 @@ elsif n== "piedra" && comp == 2
   puts 'computador juega tijera'
   puts 'ganaste'
 end
+
+if n == "papel" && comp ==1
+  puts 'computador juega papel'
+  puts 'empataste'
+elsif n == "papel" && comp == 2
+  puts 'computador juega tijera'
+  puts 'perdiste'
+elsif n== "papel" && comp == 0
+  puts 'computador juega piedra'
+  puts 'ganaste'
+end
