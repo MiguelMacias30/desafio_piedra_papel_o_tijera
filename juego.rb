@@ -22,3 +22,14 @@ elsif n== "papel" && comp == 0
   puts 'computador juega piedra'
   puts 'ganaste'
 end
+
+if n == "tijera"&& comp ==2
+  puts 'computador juega tijera'
+  puts 'empataste'
+elsif n == "tijera" && comp == 0
+  puts 'computador juega piedra'
+  puts 'perdiste'
+elsif n== "tijera" && comp == 1
+  puts 'computador juega papel'
+  puts 'ganaste'
+end
